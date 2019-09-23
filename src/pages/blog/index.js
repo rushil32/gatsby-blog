@@ -1,10 +1,10 @@
-import React from "react"
-import { useTrail, animated } from "react-spring"
 import { graphql } from "gatsby"
+import React from "react"
+import { animated, useTrail } from "react-spring"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-import PostLink from "./PostLink"
 import THEMES from "../../util/themes"
+import PostLink from "./PostLink"
 import styles from "./styles/index.module.scss"
 
 const config = { mass: 5, tension: 2000, friction: 200 }

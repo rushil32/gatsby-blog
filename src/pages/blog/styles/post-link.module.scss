@@ -1,7 +1,6 @@
 @import '../../../styles/base';
 
 .link {
-  min-height: 320px;
   padding: 15px;
   transition: 0.2s;
   display: block;
@@ -10,10 +9,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
-  @include breakpoint(xs) {
-    min-height: 0;
-  }
 
   small {
     text-transform: uppercase;
@@ -41,6 +36,7 @@
 .postInfo {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 
   @include breakpoint(xs) {
     margin-top: 30px;

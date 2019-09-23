@@ -1,4 +1,4 @@
-@import '../../styles/lib';
+@import "../../styles/lib";
 
 .container {
   padding: 50px 1.0875rem;
@@ -6,15 +6,15 @@
   max-width: 960px;
   display: flex;
   justify-content: flex-end;
-  
-  li {
-    margin: 0;
-  }
-  
+
   @include breakpoint(xs) {
     padding: 30px 10px 20px;
     margin: 0 auto 1.5rem;
     justify-content: center;
+  }
+
+  li {
+    margin: 0;
   }
 }
 

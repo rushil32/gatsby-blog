@@ -1,17 +1,17 @@
-import React from "react"
 import { Link } from "gatsby"
-import { useTrail, animated } from "react-spring"
-import SEO from "../components/seo"
+import React from "react"
+import { animated, useTrail } from "react-spring"
 import Layout from "../components/layout"
-import indexStyles from "./index.module.scss"
+import SEO from "../components/seo"
+import documentIcon from "../images/icons/document.svg"
+import ramenIcon from "../images/icons/ramen.svg"
+import speechIcon from "../images/icons/speech.svg"
+import behanceIcon from "../images/logos/behance.svg"
 import githubIcon from "../images/logos/github.svg"
 import linkedinIcon from "../images/logos/linkedin.svg"
 import THEMES from "../util/themes"
-import behanceIcon from "../images/logos/behance.svg"
-import speechIcon from "../images/icons/speech.svg"
-import ramenIcon from "../images/icons/ramen.svg"
+import indexStyles from "./index.module.scss"
 import resume from "./resume.pdf"
-import documentIcon from "../images/icons/document.svg"
 
 const LINK_TYPES = {
   internal: "INTERNAL",
@@ -102,6 +102,8 @@ const IndexPage = () => {
             <a href="mailto:rushil32@gmail.com" target="_blank">
               rushil32@gmail.com
             </a>
+            &nbsp;
+            &#x1F448;
           </div>
         </div>
         <div className={indexStyles.links}>
